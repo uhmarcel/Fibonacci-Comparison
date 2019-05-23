@@ -1,3 +1,6 @@
+% Fibonacci using matrix exponentiation
+% Time complexity O(log n) // Depends on matlab's implementation of pow
+
 function [f] = fibonacciMatrix(n)
     M = [1 1; 1 0];
     
